@@ -12,6 +12,8 @@ import { IoChatbubbleEllipses } from "react-icons/io5";
 import { BsBoxFill } from "react-icons/bs";
 import { IoMdSettings } from "react-icons/io";
 import { IoLogOut } from "react-icons/io5";
+import { ImFilter } from "react-icons/im";
+import { IoIosArrowDropleftCircle ,IoIosArrowDroprightCircle} from "react-icons/io";
 
 
 export const Pizza = () => {
@@ -57,15 +59,7 @@ export const Pizza = () => {
 
 
                     </div>
-
-
-
-
-
-
-
-                
-                     </div>
+                        </div>
             
             <div className="head">
                 <div className="contents">
@@ -84,6 +78,15 @@ export const Pizza = () => {
                     
                 
             </div>
+            <div className="subhead">
+                <div className="cat">Categories</div>
+                 <div className="fbox"><ImFilter />
+                 <div className="ftitle">Filter</div>
+                 </div>
+                 <div className="left"><IoIosArrowDropleftCircle /></div>
+                 <div className="right"><IoIosArrowDroprightCircle /></div>
+            </div>
+
 
             </div>
 
